@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Send message</title>
+</head>
+
+<body>
+    <h1>Send</h1>
+    <form action="send_message.php" method="post">
+        <div>
+            <label for="receiver_name">receiver_name:</label>
+            <input type="text" id="receiver_name" name="receiver_name" required>
+        </div>
+        <div>
+            <label for="message">message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
